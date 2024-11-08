@@ -42,6 +42,7 @@ Since the dataset is quite small, L2 regularization is applied in each of the co
 layers to help the model generalize better. In addition to this, dropout layers are also used
 for ensuring better generalization.
 <br>
+<br>
 As the task is binary classification, the Binary Cross Entropy loss function was chosen, as
 it is shown to be best suited for the given task. The Adam optimizer with a small learning
 rate of 1e-4 is chosen so that the model can learn intricate features.In order to increase
@@ -49,6 +50,7 @@ the chances of finding the global minima for loss, a custom cosine annealing lea
 scheduler is applied. This varies the learning rate (after initial warmup of 7 epochs) according
 to the Cosine function. It is seen that this has helped the model to reach a good validation
 accuracy.
+<br>
 <br>
 In order to further decrease overfitting, early stopping with a patience of 7 epochs is
 applied. A learning rate callback function is also defined such that it automatically reduces
