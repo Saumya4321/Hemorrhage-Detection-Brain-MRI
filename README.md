@@ -45,7 +45,7 @@ for ensuring better generalization.
 <br>
 As the task is binary classification, the Binary Cross Entropy loss function was chosen, as
 it is shown to be best suited for the given task. The Adam optimizer with a small learning
-rate of 1e-4 is chosen so that the model can learn intricate features.In order to increase
+rate of 1e-4 is chosen so that the model can learn intricate features. In order to increase
 the chances of finding the global minima for loss, a custom cosine annealing learning rate
 scheduler is applied. This varies the learning rate (after initial warmup of 7 epochs) according
 to the Cosine function. It is seen that this has helped the model to reach a good validation
@@ -56,6 +56,7 @@ In order to further decrease overfitting, early stopping with a patience of 7 ep
 applied. A learning rate callback function is also defined such that it automatically reduces
 the learning rate if validation loss hits a plateau. This is done to better find the minimal
 validation loss point.
+<br>
 <br>
 The model was set to train over the training data from dataset-1 for 40 epochs. Early
 stopping algorithm caused the training to stop after 18 epochs.
