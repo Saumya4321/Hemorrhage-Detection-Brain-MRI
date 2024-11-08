@@ -30,8 +30,7 @@ augmentation transformations are applied to the training data from Dataset 1:
 + Zooming in and out
 + Horizontal flip
 Data augmentation is applied only to the training data, not to the validation and test data.
-<br>
-<br>
+
 ## Model Architecture
 The model architecture consists of 5 repetitions of Conv2d, max pooling layers, and dropout
 layers. This is followed by a flattening layer and two dense layers. The final dense layer gives
@@ -74,8 +73,7 @@ accuracy of 0.78 was obtained. Following is a tabulation of the results obtained
 <br>
 <br>
 Here, recall refers to True Positive Rate (TPR) and f1 score refers to the dice score.
-<br>
-<br>
+
 ## Testing the same model on test data of Dataset-2
 Test data of dataset-2 was loaded,
 the scan images were normalized and one-hot encoding was performed on the labels. On
@@ -88,8 +86,7 @@ obtained. The precision, recall and dice scores were as follows -
 <br>
 As seen above, the model’s performance seems similar. This can be attributed to the fact
 that the train images of dataset 1 look similar to the test ones of dataset 2.
-<br>
-<br>
+
 
 ## Fine Tuning the model over Dataset 2
 The same model is taken and only the initial learning rate of the adam optimizer is changed,
