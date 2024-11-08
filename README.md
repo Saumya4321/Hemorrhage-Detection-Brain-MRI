@@ -37,6 +37,7 @@ layers. This is followed by a flattening layer and two dense layers. The final d
 two outputs corresponding to the two classes ”Hemorrhage” and ”No Hemorrhage,” using
 the softmax activation function.
 <br>
+<br>
 Since the dataset is quite small, L2 regularization is applied in each of the convolutional
 layers to help the model generalize better. In addition to this, dropout layers are also used
 for ensuring better generalization.
