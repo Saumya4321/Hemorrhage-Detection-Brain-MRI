@@ -90,6 +90,7 @@ As seen above, the model’s performance seems similar. This can be attributed t
 that the train images of dataset 1 look similar to the test ones of dataset 2.
 <br>
 <br>
+
 ## Fine Tuning the model over Dataset 2
 The same model is taken and only the initial learning rate of the adam optimizer is changed,
 in order for the model to better learn the intricacies of dataset 2. The initial learning rate
