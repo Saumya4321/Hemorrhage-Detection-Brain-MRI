@@ -1,7 +1,7 @@
 # Hemorrhage detection using CNN and Transfer Learning
 
 ## Project Overview
-This project implements a CNN-based binary classification model to detect the presence of hemorrhage in medical images. The model is trained on Dataset1 and evaluated on both Dataset1 and Dataset2, followed by fine-tuning experiments to assess cross-dataset performance.
+This work presents a CNN-based binary classification model to detect the presence of hemorrhage in medical images. The model is trained on Dataset1 and evaluated on both Dataset1 and Dataset2, followed by fine-tuning experiments to assess cross-dataset performance.
 
 ## Motivation
 This project was done as a part of the 'AI in Medical Image Analysis'(DS261) course at Indian Institute of Science.
