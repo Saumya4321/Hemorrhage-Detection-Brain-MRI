@@ -17,13 +17,13 @@ This project was done as a part of the 'AI in Medical Image Analysis (DS261)' co
 The datasets were provided by the course coordinator as part of the course. All the datasets can be found in this [repo](https://github.com/Saumya4321/DL261-class-Datasets). For this project, only Dataset1.zip and Dataset2.zip are used. Dataset1.zip is primarily a brain hemorrhage segmentation dataset with brain MRI scans and its corresponding segmentation mask for hemorrhage. While building the model, if the mask has any non-zero pixel, that particular scan is considered to have hemorrhage present. In contrast to this, Dataset2.zip has MRI scans with a corresponding CSV file labelling each image into class '1' (has hemorrhage) and class '0' (no hemorrhage). 
 
 ## Data Preprocessing
-#### Normalization
+### Normalization
 After loading the training data from Dataset 1, normalization is applied to both the images
 and their masks. This helps the features scale similarly and speeds up the training process.
-#### Converting and Loading Grayscale Images
+### Converting and Loading Grayscale Images
 All data is explicitly loaded as grayscale images to minimize the number of channels in the
 loaded data.
-#### Data Augmentation
+### Data Augmentation
 Since the provided dataset contains a small number of scans (around 400), data augmentation
 techniques are applied to help the model learn the classes better. The following data
 augmentation transformations are applied to the training data from Dataset 1:
