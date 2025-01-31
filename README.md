@@ -14,6 +14,8 @@ This project was done as a part of the 'AI in Medical Image Analysis (DS261)' co
 + Performance metrics analysis (precision, recall, f1-score)
 
 ## Datasets used
+![image](https://github.com/user-attachments/assets/98e4944e-f148-4635-9c37-ac600e826e3c)
+
 The datasets were provided by the course coordinator as part of the course. All the datasets can be found in this [repo](https://github.com/Saumya4321/DL261-class-Datasets). For this project, only Dataset1.zip and Dataset2.zip are used. Dataset1.zip is primarily a brain hemorrhage segmentation dataset with brain MRI scans and its corresponding segmentation mask for hemorrhage. While building the model, if the mask has any non-zero pixel, that particular scan is considered to have hemorrhage present. In contrast to this, Dataset2.zip has MRI scans with a corresponding CSV file labelling each image into class '1' (has hemorrhage) and class '0' (no hemorrhage). 
 
 ## Data Preprocessing
