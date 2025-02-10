@@ -126,7 +126,7 @@ When the model is fine-tuned to adapt to this new distribution of data, it *forg
 <p align=center><em>Fig 3: Anomalous data found in Dataset-2 which is not there is Dataset-1</em></p>
 <br>
 <br>
-This is called as <em>catastrophic forgetting</em>.Consequently, the accuracy of the model over the test data from
+This is called as <em>Catastrophic Forgetting</em>. Consequently, the accuracy of the model over the test data from
 dataset 1 is lower.
 
 
