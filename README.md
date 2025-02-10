@@ -13,6 +13,13 @@ This project was done as a part of the 'AI in Medical Image Analysis (DS261)' co
 + Transfer learning and fine-tuning experiments
 + Performance metrics analysis (precision, recall, f1-score)
 
+## Experiments conducted
+
++ Initial training on Dataset-1 and evaluation on Dataset-1
++ Evaluation of model (trained on Dataset-1) on Dataset-2
++ Fine-tuning the model for Dataset-2
++ Evaluation of fine-tuned model on original dataset (Dataset-1)
+
 ## Datasets used
 ![image](https://github.com/user-attachments/assets/98e4944e-f148-4635-9c37-ac600e826e3c)
 
