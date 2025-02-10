@@ -118,11 +118,12 @@ and test accuracy are 0.8861 and 0.60. The detailed classification report is giv
 <br>
 <br>
 This is lower than the first case. This is because the model is specifically fine-tuned for
-dataset-2 and though most images of dataset-1 and 2 are similar, dataset-2 has a few scan images which look totally different from dataset-1 (difference in data distribution - *domain shift*).
+dataset-2 and though most images of dataset-1 and 2 are similar, dataset-2 has a few scan images which look totally different from dataset-1 as shown in Fig-3 (difference in data distribution - *domain shift*).
 When the model is fine-tuned to adapt to this new distribution of data, it *forgets* patterns learned from the original dataset. 
 <br>
 <br>
 ![image](https://github.com/user-attachments/assets/bd765ae0-1909-4edb-a352-23b69a0250b3)
+<p>Fig 3: Anomalous data found in Dataset-2 which is not there is Dataset-1</p>
 <br>
 <br>
 This is called as *catastrophic forgetting*.Consequently, the accuracy of the model over the test data from
