@@ -127,7 +127,7 @@ and test accuracy are 0.8861 and 0.60. The detailed classification report is giv
 <br>
 <br>
 This is lower than the first case. This is because the model is specifically fine-tuned for
-dataset-2 and though most images of dataset-1 and 2 are similar, dataset-2 has a few scan images which look different from dataset-1 as shown in Fig-3 (difference in data distribution - *domain shift*). Even though the domain shift is small, the model may overwrite some of the feature representations it originally learned from Dataset-1 to better fit Dataset-2. Hence, when the model is fine-tuned to adapt to this new data distribution, it *forgets* patterns learned from the original dataset. 
+dataset-2 and though most images of dataset-1 and 2 are similar, dataset-2 has a few scan images which look different from dataset-1 as shown in Fig-3 (difference in data distribution - *domain shift*). Even though the domain shift is small, the model may overwrite some of the feature representations it originally learned from Dataset-1 to better fit Dataset-2. Hence, when the model is fine-tuned to adapt to this new data distribution, it reduces its ability to recognize patterns from the original dataset.
 <br>
 <br>
 ![image](https://github.com/user-attachments/assets/bd765ae0-1909-4edb-a352-23b69a0250b3)
