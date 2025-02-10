@@ -118,14 +118,14 @@ and test accuracy are 0.8861 and 0.60. The detailed classification report is giv
 <br>
 <br>
 This is lower than the first case. This is because the model is specifically fine-tuned for
-dataset-2 and though most images of dataset-1 and 2 are similar, dataset-2 has a few scan images which look totally different from dataset-1 (difference in data - *domain shift*).
+dataset-2 and though most images of dataset-1 and 2 are similar, dataset-2 has a few scan images which look totally different from dataset-1 (difference in data distribution - *domain shift*).
+When the model is fine-tuned to adapt to this new distribution of data, it *forgets* patterns learned from the original dataset. 
 <br>
 <br>
 ![image](https://github.com/user-attachments/assets/bd765ae0-1909-4edb-a352-23b69a0250b3)
 <br>
 <br>
-Hence, as the model is fine-tuned to recognise the patterns in the above varied instances
-of data in dataset-2, it forgets the tuning done on dataset-1, and the accuracy of the model over the test data from
+This is called as *catastrophic forgetting*.Consequently, the accuracy of the model over the test data from
 dataset 1 is lower.
 
 
