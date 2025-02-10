@@ -123,7 +123,7 @@ When the model is fine-tuned to adapt to this new distribution of data, it *forg
 <br>
 <br>
 ![image](https://github.com/user-attachments/assets/bd765ae0-1909-4edb-a352-23b69a0250b3)
-<p>Fig 3: Anomalous data found in Dataset-2 which is not there is Dataset-1</p>
+<p align=center>*Fig 3: Anomalous data found in Dataset-2 which is not there is Dataset-1*</p>
 <br>
 <br>
 This is called as *catastrophic forgetting*.Consequently, the accuracy of the model over the test data from
