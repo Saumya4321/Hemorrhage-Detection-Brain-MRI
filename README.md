@@ -97,7 +97,7 @@ obtained. The precision, recall and dice scores were as follows -
 <br>
 <br>
 As seen above, the model’s performance seems similar. This can be attributed to the fact
-that the train images of dataset 1 look similar to the test ones of dataset 2 (domain-shift is less). This shows that the model has good generalization capability.
+that the train images of dataset 1 look similar to the test ones of dataset 2 (domain-shift is small). This shows that the model has good generalization capability.
 
 
 ## Fine Tuning the model over Dataset 2
@@ -127,8 +127,7 @@ and test accuracy are 0.8861 and 0.60. The detailed classification report is giv
 <br>
 <br>
 This is lower than the first case. This is because the model is specifically fine-tuned for
-dataset-2 and though most images of dataset-1 and 2 are similar, dataset-2 has a few scan images which look totally different from dataset-1 as shown in Fig-3 (difference in data distribution - *domain shift* : no matter how small, it still affects the model).
-When the model is fine-tuned to adapt to this new distribution of data, it *forgets* patterns learned from the original dataset. 
+dataset-2 and though most images of dataset-1 and 2 are similar, dataset-2 has a few scan images which look different from dataset-1 as shown in Fig-3 (difference in data distribution - *domain shift*). Even though the domain shift is small, the model may overwrite some of the feature representations it originally learned from Dataset-1 to better fit Dataset-2. Hence, when the model is fine-tuned to adapt to this new data distribution, it *forgets* patterns learned from the original dataset. 
 <br>
 <br>
 ![image](https://github.com/user-attachments/assets/bd765ae0-1909-4edb-a352-23b69a0250b3)
