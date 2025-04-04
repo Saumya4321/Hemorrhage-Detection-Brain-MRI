@@ -148,6 +148,8 @@ dataset 2
 ![image](https://github.com/user-attachments/assets/4faa64d9-8ba2-497c-8918-ce00057730e6)
 
 fine-tuning
+![image](https://github.com/user-attachments/assets/3cffb38e-6211-4769-a942-ce4bf275fd02)
+
 dataset 2
 
 
