@@ -138,7 +138,20 @@ This is called as <em>Catastrophic Forgetting</em>. Consequently, the accuracy o
 dataset 1 is lower.
 
 
+![image](https://github.com/user-attachments/assets/f5906bff-7788-4d31-8be2-b35dd56ac253)
 
+dataset 1
+
+![image](https://github.com/user-attachments/assets/9a62e7d3-9d22-4b3f-84ca-1b86096527e9)
+
+dataset 2 
+![image](https://github.com/user-attachments/assets/4faa64d9-8ba2-497c-8918-ce00057730e6)
+
+fine-tuning
+dataset 2
+
+
+dataset 1
 
 
 
